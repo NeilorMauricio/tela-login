@@ -39,7 +39,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: blueviolet url(../imagens/janela.jpg) no-repeat;
+    background: blueviolet url(../imagens/login.jpg) no-repeat;
     background-size: cover;
     height: 200px;
     background-position: center;
@@ -48,4 +48,13 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
